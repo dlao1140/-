@@ -1,0 +1,71 @@
+// {
+//     // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+//     // 기존 특성에 대한 설명을 보려면 가리킵니다.
+//     // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "type": "java",
+//             "name": "Current File",
+//             "request": "launch",
+//             "mainClass": "${file}"
+//         },
+//         {
+//             "type": "java",
+//             "name": "BoardBackApplication",
+//             "request": "launch",
+//             "mainClass": "com.capstone.board_back.BoardBackApplication",
+//             "projectName": "board-back"
+//         }
+//     ]
+// }
+
+
+// {
+//     // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+//     // 기존 특성에 대한 설명을 보려면 가리킵니다.
+//     // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "type": "java",
+//             "name": "Current File",
+//             "request": "launch",
+//             "mainClass": "${file}"
+//         },
+//         {
+//             "type": "java",
+//             "name": "BoardBackApplication",
+//             "request": "launch",
+//             "mainClass": "com.capstone.board_back.BoardBackApplication",
+//             "projectName": "board-back"
+//         }
+//     ]
+// }
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "BoardBackApplication (local)",
+      "request": "launch",
+      "mainClass": "com.capstone.board_back.BoardBackApplication",
+      "projectName": "board-back",
+      "cwd": "${workspaceFolder}/board-back",
+      "env": {
+        "TMAP_APP_KEY": "U1plR1Y9qb7ejUNAvkSwl3PuG2aMBzVl7wQXHC4q"
+      },
+      "vmArgs": "-DTMAP_APP_KEY=U1plR1Y9qb7ejUNAvkSwl3PuG2aMBzVl7wQXHC4q",
+      "args": [
+        "--server.port=4000",
+        "--tmap.app-key=U1plR1Y9qb7ejUNAvkSwl3PuG2aMBzVl7wQXHC4q"
+      ]
+    }
+  ]
+}

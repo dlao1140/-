@@ -1,0 +1,56 @@
+#footer {
+    min-width: 1200px;
+    padding: 40px 0 50px 0;
+    background-image: url(../assets/purple-image.png);
+    background-position: 50% 50%;
+    background-size: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 1200px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo-box {
+    width: 190px;
+    height: 60px;
+
+    background-image: url(../assets/logo-light.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer-link-box {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.footer-email-link {
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer-bottom {
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 12px;
+    font-weight: 400;
+}
